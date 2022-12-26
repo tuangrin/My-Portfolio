@@ -1,0 +1,98 @@
+.contactBeach {
+  background-color: #bff3ff;
+  height: 500px;
+
+}
+
+.contactTop {
+  height: 50%;
+  display: flex;
+  justify-content: space-around;
+  padding: 0px 50px 100px 50px;
+}
+
+.contactInfo {
+  display: flex;
+  justify-content: center;
+  margin: 0px;
+  height: 300px;
+  width: 300px;
+}
+
+.contactBottom {
+  border: 1px solid rgb(0, 0, 0);
+  width: 100%;
+  height: 40%;
+  overflow: hidden;
+  padding: 0px;
+}
+
+.water {
+  width: 100%;
+  height: 50%;
+  object-fit: fill;
+  bottom: 0;
+}
+
+.cloudInfo {
+  width: 300px;
+  height: 300px;
+  padding: 10px;
+  position: relative;
+  text-align: center;
+}
+
+.cloudContact {
+  width: 200px;
+  height: 100px;
+  /* background-color: white; */
+  padding: 10px;
+  /* border: 1px solid rgb(0, 0, 0); */
+}
+
+.cloudText {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+}
+
+.cloudText h2{
+  color: rgb(8, 92, 187);
+}
+
+.cloudText p {
+  font-weight: 500;
+}
+
+.cloudGit {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  gap: 20px;
+  width: 150px;
+  top: 100%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+}
+
+  /* -------- Responsive -------- */
+
+@media only screen and (max-width: 480px) {
+  .contactBeach{
+    width: 100%;
+  }
+}
+
+/* ----------------------------------------------------- */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+}
+
+/* ----------------------------------------------------- */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+}
+
+/* ----------------------------------------------------- */
+@media only screen and (min-width: 1025px) and (max-width: 1600px) {
+}

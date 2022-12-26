@@ -1,0 +1,42 @@
+.navbar {
+  height: 60px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 16px;
+  padding-right: 24px;
+  overflow: hidden;
+  background-color: rgb(151, 207, 233);
+  position: fixed;
+  z-index: 3;
+  font-family: 'Roboto', sans-serif;
+
+}
+.navbar a {
+  text-decoration: none;
+  color: rgb(40, 40, 40);
+  font-weight:bold;
+  padding-right: 20px;
+}
+
+.navbar a:hover{
+	color: #ffffff;
+	transition: .3s;
+  font-size: 20px;
+}
+
+.navbar.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: yellow;
+  padding: 50px;
+  font-size: 20px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}

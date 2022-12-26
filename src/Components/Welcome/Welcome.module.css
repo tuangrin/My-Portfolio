@@ -1,0 +1,91 @@
+.welcomeBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-around;
+  padding: 100px;
+  height: 450px;
+  background-color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+.KhumKhom {
+  font-family: 'Caveat', cursive;
+  margin-top: 40px;
+  margin-bottom: 0px;
+  font-size: 50px;
+}
+
+.divLeft {
+  /* border-style: solid;
+     border-width: 1px; */
+  width: 40%;
+  padding: 20px;
+  /* font-family: 'Sriracha', cursive; */
+  font-family: 'Roboto', sans-serif;
+  /* margin-right: 40px; */
+}
+
+.divRight {
+  /* background-color: aquamarine; */
+  width: 40%;
+  margin-left: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.greeting {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.iAm {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.myName {
+  color: #13c2eb;
+  font-weight: bold;
+}
+
+.myName:hover {
+  color: #ff9b04;
+  font-size: 60px;
+}
+
+.divBTN {
+  padding-top: 60px;
+}
+
+.btnCV {
+  padding: 12px 60px;
+  color: aliceblue;
+  font-size: 25px;
+  font-weight: 800;
+  text-decoration: none;
+  border-radius: 8px;
+  background-color: #43bed9;
+}
+
+.btnCV:hover {
+  background-color: #86d8eb;
+  transition: 0.3s;
+}
+
+/* -------- Responsive -------- */
+
+@media only screen and (max-width: 480px) {
+}
+
+/* ----------------------------------------------------- */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+}
+
+/* ----------------------------------------------------- */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+}
+
+/* ----------------------------------------------------- */
+@media only screen and (min-width: 1025px) and (max-width: 1600px) {
+}
