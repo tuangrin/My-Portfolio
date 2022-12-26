@@ -49,7 +49,7 @@ const Skill = () => {
         </div>
         
         <div className='skillsLogo'>
-          <img src={node} alt='Git Logo' width='110' height='110' />
+          <img src={node} alt='node Logo' width='110' height='110' />
           <p className='skillsTextLogo'>node.js</p>
         </div>
 
@@ -59,7 +59,7 @@ const Skill = () => {
         </div>
 
         <div className='skillsLogo'>
-          <img src={sql} alt='Git Logo' width='110' height='110' />
+          <img src={sql} alt='sql Logo' width='110' height='110' />
           <p className='skillsTextLogo'>SQL</p>
         </div>
       </motion.div>

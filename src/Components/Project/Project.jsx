@@ -35,14 +35,14 @@ const Project = () => {
         {/* box1: foot fit for fire */}
         <motion.div variants={cardMotion} whileHover="cardHover" initial="cardNormal" className='projectCard'>
           <div className='projectCardPic'>
-            <img src={f4} alt='findMyHat' width='260px' height='280px' />
+            <img src={f4} alt='final-project' width='260px' height='280px' />
           </div>
           <div className='projectCardText'>
             <div className='projectCardTextLeft'>
               <p>Exercise Tracker</p>
             </div>
             <div className='projectCardTextRight'>
-              <a href='#a' target='_blank' style={{margin: "5px"}}>
+              <a href='https://github.com/Theerapol-khamwan/website-tracking-exercises-front-end' target='_blank' rel='noreferrer' style={{margin: "5px"}}>
                 <img
                   src={github}
                   alt='github logo'
@@ -66,7 +66,7 @@ const Project = () => {
         {/* box2: Colmar Academy */}
         <motion.div variants={cardMotion} whileHover="cardHover" initial="cardNormal" className='projectCard'>
           <div className='projectCardPic'>
-            <img src={colmar} alt='findMyHat' width='260px' height='280px' />
+            <img src={colmar} alt='colmar-academy' width='260px' height='280px' />
           </div>
 
           <div className='projectCardText'>
@@ -123,7 +123,7 @@ const Project = () => {
         {/* box4: spotify jamming */}
         <motion.div variants={cardMotion} whileHover="cardHover" initial="cardNormal" className='projectCard'>
           <div className='projectCardPic'>
-            <img src={jamming} alt='findMyHat' width='260px' height='280px' />
+            <img src={jamming} alt='jamming-project' width='260px' height='280px' />
           </div>
 
           <div className='projectCardText'>

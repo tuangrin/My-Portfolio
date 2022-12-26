@@ -49,10 +49,10 @@ const Contact = () => {
             height='200px'
           />
           <div className='cloudGit'>
-            <a href='https://github.com/tuangrin' target='_blank'>
+            <a href='https://github.com/tuangrin' target='_blank' rel="noreferrer">
               <img src={github} alt='github logo' width='50px' height='50px' />
             </a>
-            <a href='https://www.linkedin.com/in/rinlapad-s/' target='_blank'>
+            <a href='https://www.linkedin.com/in/rinlapad-s/' target='_blank' rel="noreferrer">
               <img
                 src={linkedin}
                 alt='github logo'
