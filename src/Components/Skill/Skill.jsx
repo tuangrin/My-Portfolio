@@ -8,6 +8,8 @@ import react from './img/react.png';
 import git from './img/git.png';
 import node from './img/node.png';
 import mongodb from './img/mongodb.png';
+import sql from './img/sql.jpg';
+
 
 const Skill = () => {
 
@@ -54,6 +56,11 @@ const Skill = () => {
         <div className='skillsLogo'>
           <img src={mongodb} alt='Git Logo' width='110' height='110' />
           <p className='skillsTextLogo'>mongoDB</p>
+        </div>
+
+        <div className='skillsLogo'>
+          <img src={sql} alt='Git Logo' width='110' height='110' />
+          <p className='skillsTextLogo'>SQL</p>
         </div>
       </motion.div>
     </div>
