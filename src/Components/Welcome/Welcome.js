@@ -1,6 +1,7 @@
 import React from 'react';
 import style from './Welcome.module.css';
 import cloudy from './cloudy.gif';
+// ทดสอบ
 
 const Welcome = () => {
   return (
