@@ -1,6 +1,6 @@
 import React from 'react';
 import './Project.css';
-import link from './img/link.png'
+import link from './img/link.png';
 import findMyHat from './img/findMyHat.png';
 import jamming from './img/jamming.PNG';
 import f4 from './img/f4_2.PNG';
@@ -11,13 +11,13 @@ import { motion } from 'framer-motion';
 const Project = () => {
   const cardMotion = {
     cardNormal: {
-        scale: 1
+      scale: 1,
     },
 
     cardHover: {
-        scale: 1.1
-    }
-}
+      scale: 1.1,
+    },
+  };
   return (
     <div className='projectSky' id='project'>
       <div className='proDivTop'>
@@ -33,16 +33,26 @@ const Project = () => {
         transition={{ duration: 1 }}
       >
         {/* box1: foot fit for fire */}
-        <motion.div variants={cardMotion} whileHover="cardHover" initial="cardNormal" className='projectCard'>
+        <motion.div
+          variants={cardMotion}
+          whileHover='cardHover'
+          initial='cardNormal'
+          className='projectCard'
+        >
           <div className='projectCardPic'>
-            <img src={f4} alt='final-project' width='260px' height='280px' />
+            <img src={f4} alt='final-project' width='280px' height='280px' />
           </div>
           <div className='projectCardText'>
             <div className='projectCardTextLeft'>
               <p>Exercise Tracker</p>
             </div>
             <div className='projectCardTextRight'>
-              <a href='https://github.com/Theerapol-khamwan/website-tracking-exercises-front-end' target='_blank' rel='noreferrer' style={{margin: "5px"}}>
+              <a
+                href='https://github.com/Theerapol-khamwan/website-tracking-exercises-front-end'
+                target='_blank'
+                rel='noreferrer'
+                style={{ margin: '5px' }}
+              >
                 <img
                   src={github}
                   alt='github logo'
@@ -51,22 +61,34 @@ const Project = () => {
                 />
               </a>
 
-              <a href='https://webapp-tracking-exercises.web.app/' target='_blank' rel='noreferrer'>
-                <img
-                  src={link}
-                  alt='github logo'
-                  width='20px'
-                  height='20px'
-                />
+              <a
+                href='https://webapp-tracking-exercises.web.app/'
+                target='_blank'
+                rel='noreferrer'
+              >
+                <img src={link} alt='github logo' width='20px' height='20px' />
               </a>
             </div>
+          </div>
+          <div className='projectCardDes'>
+            <p>Generation Thailand Bootcamp Project</p>
           </div>
         </motion.div>
 
         {/* box2: Colmar Academy */}
-        <motion.div variants={cardMotion} whileHover="cardHover" initial="cardNormal" className='projectCard'>
+        <motion.div
+          variants={cardMotion}
+          whileHover='cardHover'
+          initial='cardNormal'
+          className='projectCard'
+        >
           <div className='projectCardPic'>
-            <img src={colmar} alt='colmar-academy' width='260px' height='280px' />
+            <img
+              src={colmar}
+              alt='colmar-academy'
+              width='280px'
+              height='280px'
+            />
           </div>
 
           <div className='projectCardText'>
@@ -74,7 +96,12 @@ const Project = () => {
               <p>Colmar Academy</p>
             </div>
             <div className='projectCardTextRight'>
-            <a href='https://github.com/tuangrin/colmar-academy' target='_blank'  rel='noreferrer' style={{margin: "5px"}}>
+              <a
+                href='https://github.com/tuangrin/colmar-academy'
+                target='_blank'
+                rel='noreferrer'
+                style={{ margin: '5px' }}
+              >
                 <img
                   src={github}
                   alt='github logo'
@@ -87,43 +114,58 @@ const Project = () => {
                 target='_blank'
                 rel='noreferrer'
               >
-                <img
-                  src={link}
-                  alt='link logo'
-                  width='20px'
-                  height='20px'
-                />
+                <img src={link} alt='link logo' width='20px' height='20px' />
               </a>
             </div>
+          </div>
+          <div className='projectCardDes'>
+            <p>Codecademy Project</p>
           </div>
         </motion.div>
 
         {/* box3: Find Your Hat*/}
-        <motion.div variants={cardMotion} whileHover="cardHover" initial="cardNormal" className='projectCard'>
+        <motion.div
+          variants={cardMotion}
+          whileHover='cardHover'
+          initial='cardNormal'
+          className='projectCard'
+        >
           <div className='projectCardPic'>
-            <img src={findMyHat} alt='findMyHat' width='260px' height='280px' />
+            <img src={findMyHat} alt='findMyHat' width='280px' height='280px' />
           </div>
           <div className='projectCardText'>
             <div className='projectCardTextLeft'>
               <p>Find Your Hat</p>
             </div>
             <div className='projectCardTextRight'>
-              <a href='https://replit.com/@RinlapadSuesawa/Find-your-hat29RinlapadTuangtwng-2#index.js' target='_blank'  rel='noreferrer'>
-                <img
-                  src={link}
-                  alt='github logo'
-                  width='20px'
-                  height='20px'
-                />
+              <a
+                href='https://replit.com/@RinlapadSuesawa/Find-your-hat29RinlapadTuangtwng-2#index.js'
+                target='_blank'
+                rel='noreferrer'
+              >
+                <img src={link} alt='github logo' width='20px' height='20px' />
               </a>
             </div>
+          </div>
+          <div className='projectCardDes'>
+            <p>Codecademy Project</p>
           </div>
         </motion.div>
 
         {/* box4: spotify jamming */}
-        <motion.div variants={cardMotion} whileHover="cardHover" initial="cardNormal" className='projectCard'>
+        <motion.div
+          variants={cardMotion}
+          whileHover='cardHover'
+          initial='cardNormal'
+          className='projectCard'
+        >
           <div className='projectCardPic'>
-            <img src={jamming} alt='jamming-project' width='260px' height='280px' />
+            <img
+              src={jamming}
+              alt='jamming-project'
+              width='280px'
+              height='280px'
+            />
           </div>
 
           <div className='projectCardText'>
@@ -144,6 +186,10 @@ const Project = () => {
                 />
               </a>
             </div>
+          </div>
+
+          <div className='projectCardDes'>
+            <p>Codecademy Project</p>
           </div>
         </motion.div>
       </motion.div>
